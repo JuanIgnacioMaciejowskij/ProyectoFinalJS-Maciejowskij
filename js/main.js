@@ -61,6 +61,7 @@ const preguntas = [
         correcta: 2
     }
 ];
+
 let preguntaActual = 0;
 let puntaje = 0;
 const highScore = localStorage.getItem('highScore') || 0;
